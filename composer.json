@@ -1,0 +1,29 @@
+{
+    "name": "jcabanillas/yii2-mexvalidators",
+    "description": "Two data validators for Mexico-specific data: CURP and RFC.",
+    "homepage": "https://github.com/jcabanillas/yii2-mexvalidators",
+    "keywords": ["yii2", "validators", "mexico", "rfc", "curp"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "type": "yii-extension",
+    "authors": [
+        {
+            "name": "Javier Cabanillas",
+            "email": "jcabanillas@bitevolution.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "support": {
+        "issues": "https://github.com/jcabanillas/yii2-mexvalidators/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "source": "https://github.com/jcabanillas/yii2-mexvalidators"
+    },
+    "autoload": {
+        "psr-4": {
+            "jcabanillas\\mexvalidators\\": ""
+        }
+    }
+}
