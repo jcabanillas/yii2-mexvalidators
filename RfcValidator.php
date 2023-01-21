@@ -104,6 +104,8 @@ class RfcValidator extends Validator {
             checkdate($month, $day, $year);
         } catch (ErrorException $ex) {
             $this->errors[] = \Yii::t('validator', '"{part2}" must be a valid date in the format YYMMDD.', array('part2' => $part2));
+        } catch (\TypeError $ext){
+            $this->errors[] = \Yii::t('validator', '"{part2}" must be a valid date in the format YYMMDD.', array('part2' => $part2));
         }
 
         // Check part 3
